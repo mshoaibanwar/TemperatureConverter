@@ -1,0 +1,46 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5%;
+    margin: 9%;
+    background-color: orangered;
+    border-radius: 40px;
+    box-shadow: 2px 2px 100px orangered;
+}
+.container .heading h1
+{
+    text-align: center;
+    background-color: transparent;
+    font-size: 3.5vw;
+    margin-bottom: 5%;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+.container input
+{
+    font-size: 2vw;
+    border-radius:10px;
+    border: none;
+    padding: 15px;
+}
+.container label
+{
+    font-size: 2.5vw;
+    background-color: transparent;
+    margin: 20px 0px;
+}
